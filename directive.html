@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  	
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body ng-app="Directive">
+  
+  <div class="container" ng-controller="DirectiveController">
+    <div class="row">
+        <izpis-znakov></izpis-znakov>
+        <prijava-newsletter placeholder="Vpiši email" btntext="Potrdi"></prijava-newsletter>
+        <mesec number="12"></mesec>
+    </div>
+
+
+
+
+  </div>
+  
+</body>
+</html>
